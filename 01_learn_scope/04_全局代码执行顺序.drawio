@@ -1,0 +1,73 @@
+<mxfile host="65bd71144e">
+    <diagram id="KHz6fyODbMwNqrWDZ8PU" name="第 1 页">
+        <mxGraphModel dx="790" dy="1689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="70" width="400" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Execution Context Stack" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="30" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="VO(variable object)：GO" style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="390" width="340" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="执行代码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4">
+                    <mxGeometry x="120" y="50" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Global Execution Context" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="350" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="{&lt;br&gt;String:'类',&lt;br&gt;Date:'类',&lt;br&gt;foo:0xa00&lt;br&gt;}" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="280" width="220" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="GO(global object)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="240" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="[[scope]]:parent scope&lt;br&gt;代码块" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="118" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="函数foo:0xa00" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="472.5" y="80" width="105" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="VO(variable object):AO" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="290" width="340" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="执行代码" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="12">
+                    <mxGeometry y="30" width="340" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="{&lt;br&gt;m:10,&lt;br&gt;n:20,&lt;br&gt;bar:0xb00&lt;br&gt;}" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="120" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="590" y="210" as="sourcePoint"/>
+                        <mxPoint x="620" y="170" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="[[scope]]:parent scope&lt;br&gt;代码块" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="460" y="-50" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="函数bar:0xb00" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="-80" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="-50" width="130" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="20">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="590" y="70" as="sourcePoint"/>
+                        <mxPoint x="640" y="20" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="VO(variable object):AO" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="130" width="340" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="执行代码" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="25">
+                    <mxGeometry y="30" width="340" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
